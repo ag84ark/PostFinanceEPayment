@@ -120,7 +120,7 @@ final class Parameter
     const SUBSCRIPTION_ID = 'SUBSCRIPTION_ID';
     
     
-    // ADDED BY ME
+    // ADDED BY @ag84ark
     const COLLECTOR_BIC = 'COLLECTOR_BIC';
     const COLLECTOR_IBAN = 'COLLECTOR_IBAN';
     const CREATION_STATUS = 'CREATION_STATUS';
