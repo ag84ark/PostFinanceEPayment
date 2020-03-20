@@ -118,6 +118,24 @@ final class Parameter
 
     // Subscription
     const SUBSCRIPTION_ID = 'SUBSCRIPTION_ID';
+    
+    
+    // ADDED BY ME
+    const COLLECTOR_BIC = 'COLLECTOR_BIC';
+    const COLLECTOR_IBAN = 'COLLECTOR_IBAN';
+    const CREATION_STATUS = 'CREATION_STATUS';
+    const CREDITDEBIT = 'CREDITDEBIT';
+    const DEVICEID = 'DEVICEID';
+    const ENCCARDNO = 'ENCCARDNO';
+    const FXAMOUNT = 'FXAMOUNT';
+    const FXCURRENCY = 'FXCURRENCY';
+    const MOBILEMODE = 'MOBILEMODE';
+    const NBREMAILUSAGE = 'NBREMAILUSAGE';
+    const NBRIPUSAGE = 'NBRIPUSAGE';
+    const NBRIPUSAGE_ALLTX = 'NBRIPUSAGE_ALLTX';
+    const NBRUSAGE = 'NBRUSAGE';
+    const PAYMENT_REFERENCE = 'PAYMENT_REFERENCE';
+    const TICKET = 'TICKET';
 
     /**
      * @var array Post-Sale parameters used to create Signature
@@ -141,6 +159,10 @@ final class Parameter
         self::CARD_NUMBER,
         self::CARD_COUNTRY,
         self::CARD_HOLDER,
+        self::COLLECTOR_BIC,
+        self::COLLECTOR_IBAN,
+        self::CREATION_STATUS,
+        self::CREDITDEBIT,
         self::COMPLUS,
         self::CURRENCY,
         self::CVC_CHECK,
@@ -154,21 +176,36 @@ final class Parameter
         self::DCC_MARGINPERCENTAGE,
         self::DCC_VALIDHOURS,
         self::DIGEST_CARD_NUMBER,
+        self::DEVICEID,
         self::ECI,
         self::EXPIRATION_DATE,
+        self::CLIENT_EMAIL,
+        self::ENCCARDNO,
+        self::FXAMOUNT,
+        self::FXCURRENCY,
         self::IP,
         self::IP_COUNTRY,
+        self::MANDATE_ID,
+        self::MOBILEMODE,
+        self::NBREMAILUSAGE,
+        self::NBRIPUSAGE,
+        self::NBRIPUSAGE_ALLTX,
+        self::NBRUSAGE,
         self::NC_ERROR,
         self::NC_ERROR_PLUS,
         self::ORDER_ID,
         self::PAYMENT_ID,
         self::PAYMENT_ID_SUB,
+        self::PAYMENT_REFERENCE,
         self::PAYMENT_METHOD,
         self::SCORING_CATEGORY,
         self::SCORING,
+        self::SEQUENCE_TYPE,
+        self::SIGNATURE_DATE,
         self::STATUS,
         self::CARD_BRAND_SUB,
         self::SUBSCRIPTION_ID,
+        self::TICKET,
         self::TRANSACTION_DATE,
         self::CARD_VIRTUAL,
     );
