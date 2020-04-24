@@ -21,5 +21,6 @@ class PaymentMethod
     const CREDITCARD = 'CreditCard';
     const POSTFINANCE_EFINANCE = 'PostFinance e-finance';
     const POSTFINANCE_CARD = 'PostFinance Card';
+    const TWINT = 'TWINT';
     const UNKNOWN = 'Unknown';
 }

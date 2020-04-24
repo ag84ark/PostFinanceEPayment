@@ -168,11 +168,11 @@ class Response
         switch ($parameters['PM']) {
             case 'CreditCard':
                 $response->setPaymentMethod(PaymentMethod::CREDITCARD);
-                switch ($parameters['BRAND']) {
-                    case 'MasterCard':
+                switch (strtolower($parameters['BRAND'])) {
+                    case 'mastercard':
                         $response->setBrand(Brand::MASTERCARD);
                         break;
-                    case 'Visa':
+                    case 'visa':
                         $response->setBrand(Brand::VISA);
                         break;
                 }
@@ -184,6 +184,10 @@ class Response
             case 'PostFinance Card':
                 $response->setPaymentMethod(PaymentMethod::POSTFINANCE_CARD);
                 $response->setBrand(Brand::POSTFINANCE_CARD);
+                break;
+            case 'TWINT':
+                $response->setPaymentMethod('TWINT');
+                $response->setBrand('TWINT');
                 break;
         }
         ;

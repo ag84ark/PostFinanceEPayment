@@ -26,6 +26,9 @@ class Brand
     const POSTFINANCE_EFINANCE = 'PostFinance e-finance';
     const POSTFINANCE_CARD = 'PostFinance Card';
 
+    // Twint
+    const TWINT = 'TWINT';
+
     // others (or not yet implemented)
     const UNKNOWN = 'Unknown';
 }
